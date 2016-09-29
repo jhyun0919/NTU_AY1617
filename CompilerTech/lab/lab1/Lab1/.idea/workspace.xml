@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="934719ea-6753-4b4f-a42d-a6f0d5e1aff9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frontend/Token$Type.class" afterPath="$PROJECT_DIR$/bin/frontend/Token$Type.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/frontend/Token.class" afterPath="$PROJECT_DIR$/bin/frontend/Token.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/lexer/Lexer.class" afterPath="$PROJECT_DIR$/bin/lexer/Lexer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/test/LexerTests.class" afterPath="$PROJECT_DIR$/bin/test/LexerTests.class" />
-    </list>
+    <list default="true" id="934719ea-6753-4b4f-a42d-a6f0d5e1aff9" name="Default" comment="" />
     <ignored path="Lab1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -31,7 +26,7 @@
       <file leaf-file-name="lexer.flex" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/frontend/lexer.flex">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.032327585">
+            <state vertical-scroll-proportion="0.91359776">
               <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding />
             </state>
@@ -43,7 +38,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,6 +135,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,9 +244,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -745,6 +742,7 @@
       <workItem from="1472732227990" duration="89000" />
       <workItem from="1472732341514" duration="145000" />
       <workItem from="1472732507977" duration="94000" />
+      <workItem from="1474596415301" duration="43000" />
     </task>
     <servers />
   </component>
@@ -757,35 +755,35 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328000" />
+    <option name="totallyTimeSpent" value="371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -812,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +825,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,50 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1472704534000" expanded="false" signature="73:125" placeholder="..." />
-            <marker date="1472704534000" expanded="false" signature="417:422" placeholder=" { " />
-            <marker date="1472704534000" expanded="false" signature="473:476" placeholder=" }" />
-            <marker date="1472704534000" expanded="true" signature="779:895" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1087:1109" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1120:1140" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1150:1169" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1180:1200" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1208:1225" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1237:1258" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1267:1285" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1297:1318" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1330:1351" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1363:1384" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1394:1413" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1423:1442" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1452:1471" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1482:1502" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1525:1545" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1552:1575" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1582:1603" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1610:1631" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1638:1661" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1668:1689" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1696:1717" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1724:1748" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1767:1785" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1793:1812" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1819:1837" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1845:1863" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1870:1887" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1895:1913" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1920:1937" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1944:1964" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1972:1990" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1997:2016" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2023:2043" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2083:2100" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2122:2148" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2168:2207" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2311:2372" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2388:2408" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,58 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21246459">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <marker date="1472704534000" expanded="false" signature="73:125" placeholder="..." />
-            <marker date="1472704534000" expanded="false" signature="417:422" placeholder=" { " />
-            <marker date="1472704534000" expanded="false" signature="473:476" placeholder=" }" />
-            <marker date="1472704534000" expanded="true" signature="779:895" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1087:1109" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1120:1140" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1150:1169" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1180:1200" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1208:1225" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1237:1258" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1267:1285" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1297:1318" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1330:1351" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1363:1384" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1394:1413" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1423:1442" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1452:1471" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1482:1502" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1525:1545" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1552:1575" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1582:1603" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1610:1631" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1638:1661" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1668:1689" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1696:1717" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1724:1748" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1767:1785" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1793:1812" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1819:1837" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1845:1863" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1870:1887" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1895:1913" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1920:1937" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1944:1964" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1972:1990" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="1997:2016" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2023:2043" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2083:2100" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2122:2148" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2168:2207" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2311:2372" placeholder="{...}" />
-            <marker date="1472704534000" expanded="true" signature="2388:2408" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/LexerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="19.728449">
           <caret line="759" column="0" selection-start-line="759" selection-start-column="0" selection-end-line="759" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,15 +864,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1681035">
           <caret line="111" column="25" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/frontend/lexer.flex">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032327585">
+        <state vertical-scroll-proportion="0.91359776">
           <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/LexerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
