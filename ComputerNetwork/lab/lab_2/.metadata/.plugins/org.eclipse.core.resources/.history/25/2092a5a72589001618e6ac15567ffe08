@@ -1,0 +1,55 @@
+import java.io.*;
+import java.net.*;
+
+public class UDPClient {
+    public static void main(String args[]) {
+        //
+        // 1. Open UDP socket
+        //
+
+        DatagramSocket socket = null;
+        try {
+            socket = new DatagramSocket(9876);
+        } catch (SocketException e) {
+        	System.out.println(e);
+        }
+
+//        socket = new DatagramSocket(9876);
+
+        byte[] sendData = new byte[1024];
+        byte[] receiveData = new byte[1024];
+
+        try {
+
+            BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
+
+            InetAddress IPAddress = InetAddress.getByName("localhost");
+
+            String sentence = inFromUser.readLine();
+            sendData = sentence.getBytes();
+
+            //
+            // 2. Send UDP request(sendPacket) to server
+            //
+
+            DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, 9876);
+            socket.send(sendPacket);
+
+            //
+            // 3. Recieve UDP reply(recievePacket) from server
+            //
+
+            DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+            socket.receive(receivePacket);
+
+            String modifiedSentence = new String(receivePacket.getData());
+            System.out.println("FROM SERVER:" + modifiedSentence);
+            socket.close();
+
+
+        } catch (IOException e) {
+        	System.out.println(e);
+        }
+
+    }
+}
