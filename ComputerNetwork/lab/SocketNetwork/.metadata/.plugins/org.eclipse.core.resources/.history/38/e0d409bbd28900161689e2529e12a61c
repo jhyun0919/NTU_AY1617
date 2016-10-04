@@ -1,0 +1,67 @@
+import java.io.*;
+import java.net.*;
+import java.lang.*;
+
+public class Rfc865UdpClient {
+    public static void main(String args[]) {
+        //
+        // 1. Open UDP socket
+        //
+
+        DatagramSocket socket = null;
+        try {
+            socket = new DatagramSocket();
+        } catch (SocketException e) {
+            e.printStackTrace();
+        }
+        
+        // make a buffer
+        byte[] Buffer = new byte[1024];
+
+        try {
+        	
+        	System.out.print("Input \"YourName, YourLabGroup, YourClientIPAddress\" : ");
+
+            BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
+            String sentence = inFromUser.readLine();
+            Buffer = sentence.getBytes();
+
+            InetAddress IPAddress = InetAddress.getByName("localhost");
+            // localhost
+            // CE3005 HWLAB B18 : 172.21.145.27
+
+            //
+            // 2. Send UDP request(sendPacket) to server
+            //
+
+            DatagramPacket sendPacket = new DatagramPacket(Buffer, Buffer.length, IPAddress, 17);
+            socket.send(sendPacket);
+
+            //
+            // 3. Receive UDP reply(recievePacket) from server
+            //
+
+            DatagramPacket receivePacket = new DatagramPacket(Buffer, Buffer.length);
+            socket.receive(receivePacket);
+
+            // print the result
+            System.out.println("< FROM SERVER >");
+            String receivedSentence = new String(receivePacket.getData());
+            String modifiedSentence = receivedSentence.replaceAll("\\s","");
+            String[] Keywords = modifiedSentence.split(",");
+            
+            try{
+            	System.out.println("Name: " + Keywords[0]);
+            	System.out.println("Group: " + Keywords[1]);
+            	System.out.println("IP Address: " + Keywords[2]);
+            } catch (ArrayIndexOutOfBoundsException e){
+            	e.printStackTrace();
+            }
+      
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+    }
+    
+}
