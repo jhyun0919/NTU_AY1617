@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;UDP_Server.java&apos; to &apos;UDPServer.java&apos;&#x0A;- Original project: &apos;SocketNetwork&apos;&#x0A;- Original element: &apos;UDP_Server.java&apos;&#x0A;- Renamed element: &apos;UDPServer.java&apos;" description="Rename compilation unit &apos;UDP_Server.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{UDP_Server.java" name="UDPServer.java" references="false" stamp="1475470311745" version="1.0"/>
-</session>
